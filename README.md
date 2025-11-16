@@ -1,3 +1,34 @@
+# Goal Prediction App
+
+Rate your daily actions on 5 levels and see how likely you are to achieve your Max / Middle / Minimum goals.
+
+## Tech
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- LocalStorage persistence (v1)
+
+## Data Model
+See `lib/types.ts` for full types.
+
+## Run locally
+```bash
+npm install
+npm run dev
+```
+
+## Build
+```bash
+npm run build && npm start
+```
+
+## Tests
+```bash
+npm test
+```
+
+## Deployment
+Deploy easily to Vercel.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
